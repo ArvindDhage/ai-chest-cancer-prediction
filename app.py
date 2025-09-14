@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Load your pre-trained model (replace 'your_model.h5' with the actual path to your model)
-model = tf.keras.models.load_model('model_vgg16.h5')
+model = tf.keras.models.load_model('model.h5')
 
 # Define a function to preprocess the image
 def preprocess_image(image, target_size=(224, 224)):
